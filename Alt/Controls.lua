@@ -91,7 +91,7 @@ end
 		end
 				if cmd == "rj" then
 		    game:GetService("TeleportService"):Teleport(game.PlaceId, game:GetService("Players").LocalPlayer);
-				syn.queue_on_teleport("print('hello')")
+				syn.queue_on_teleport("loadstring(game:HttpGet('https://raw.githubusercontent.com/NotOven/Stuff/main/Alt/Controls.lua',true))();")
 				end
 
 if cmd =="unsit" then
@@ -438,3 +438,5 @@ game:GetService("StarterGui"):SetCore("SendNotification", {
 	Text = "oven#9343";
 	Icon = "rbxthumb://type=Asset&id=5107182114&w=150&h=150"})
 Duration = 16;
+
+--Yes I Took The Original From A Random Person, The Template Isnt Mine But Most Of The Shit Is ReWriten Or Completely New By Me
