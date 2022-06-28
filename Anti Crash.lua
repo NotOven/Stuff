@@ -1,3 +1,5 @@
+--Pu This In AutoExec
+
 repeat task.wait() until game:IsLoaded()
 Workspace.DescendantRemoving:Connect(function(inst)
 if inst:IsA("Motor6D") then
